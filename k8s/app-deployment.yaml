@@ -15,7 +15,7 @@ spec:
       containers:
         - name: hospital-app
           # >>> REPLACE with YOUR Docker Hub image (Phase 4) <<<
-          image: nanineelapu/hospital-app:1.0.0
+          image: inderpreet26/hospital-app:v1.0
           ports:
             - containerPort: 5000
           envFrom:
